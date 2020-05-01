@@ -1,0 +1,247 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+  	margin: 0;
+	font-family: "Lucida Grande";
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+	clear: left;
+	clear: right;
+}
+
+
+
+.container {
+		 max-width: 1170px;
+	     width: 100%;
+	     padding: 0 15px;
+	     margin: 0 auto;
+}
+
+.top-wrapper {
+		padding: 180px 0 100px 0;
+	 	background-image: url("../images/program4.jpg");
+		background-size: cover;
+		color: white;
+		text-align: center;
+}
+
+.container h1 {
+		font-size: 45px;
+		letter-spacing: 5px;
+		margin: 10px 0;
+		opacity: 0.7;
+}
+
+.container p {
+		margin: 3px 0;
+		opacity: 0.7;
+}
+
+.btn-wrapper {
+		margin: 15px 0;
+}
+
+.btn-wrapper a {
+	text-align: center;
+}
+
+.btn-wrapper p {
+		 margin: 10px 0;
+}
+
+.btn {
+	padding: 12px 24px;
+	display: inline-block;
+	color: white;
+	opacity: 0.7;
+	border-radius: 4px;
+}
+
+.btn:hover {
+	     opacity: 1;
+}
+
+.signup {
+	  background-color: limegreen;
+}
+
+.facebook {
+	    background-color: blue;
+	    margin-right: 10px;
+}
+
+.twitter {
+	   background-color: skyblue;
+}
+
+.fa {
+	margin: 0 5px;
+}
+
+header {
+	 height: 65px;
+	 width: 100%;
+	 background-color: rgb(112, 128, 145, 0.9);
+	 position: fixed;
+	 top: 0;
+	 z-index:10;
+	 
+}
+
+.logo {
+	height: 45px;
+	margin: 12px 0;
+	border-radius: 50%;
+}
+
+.header-left {
+	   float: left;
+}
+
+.header-left li {
+		list-style: none;
+		float: right;
+		margin: 22px 10px;
+		font-size: 20px;
+		letter-spacing: 5px;
+	        color: white;
+		opacity: 0.7;
+		transition: all 1s;
+		cursor: pointer;		
+}
+
+.header-left li:hover {
+		    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.header-right {
+	float: right;
+	margin-right: -25px;
+
+}
+
+.header-right a {
+	line-height: 65px;
+	color: white;
+	display: block;
+	float: left;
+	padding: 0 25px;
+	transition: all 0.5s;
+	
+}
+
+.header-right a:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.menu-icon {
+	color: white;
+	float: right;
+	padding: 21px 0;
+	font-size: 25px;
+	display: none;
+}
+
+.lesson-wrapper {
+	   
+	   padding-bottom: 80px;
+	   padding-left: 5px;
+	   padding-right: 5px;
+	   background-color: #f7f7f7;
+	   text-align: center;
+	   
+}
+
+.heading {
+	   padding-top: 40px;
+	   padding-bottom: 50px;
+	   color: #5f5d60;
+}
+
+.heading h2 {
+	      font-weight: normal;
+}
+
+
+.lesson {
+	  float: left;
+	  width: 20%;
+
+}
+
+
+.lesson-icon {
+	       position: relative;
+}
+
+.lesson-icon img {
+	width: 90px;
+	border-radius: 50%;
+
+
+}
+
+.lesson-icon p {
+		 position: absolute;
+		 top: 67%;
+		 width: 100%;
+		 color: #000080;
+		 background-color: rgb(245, 255, 250);
+		 cursor: pointer;
+}
+
+.txt-contents {
+		width: 80%;
+		display: inline-block;
+		margin-top: 20px;
+		font-size: 15px;
+		color: #b3aeb5;
+}
+
+.
+
+.heading h3 {
+	      font-weight: normal;
+}
+
+.message-wrapper {
+		   border-radius: 1px solid #eee;
+		   padding-bottom: 80px;
+		   text-align: center;
+}
+
+.message {
+	   padding: 15px 40px;
+	   background-color: #5dca88;
+	   box-shadow: 0 7px #1a7940;
+	   cursor: pointer;
+}
+
+.message:active {
+		 position: relative;
+		 top: 7px;
+		 box-shadow: none;
+}
+
+footer img {
+	width: 90px;
+	
+}
+
+footer p {
+	font-size: 12px;
+}
+
+footer {
+	padding-top: 10px;
+	padding-bottom: 20px;
+
+}
