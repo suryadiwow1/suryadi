@@ -1,7 +1,7 @@
 /*untuk laptop atau PC */
 @media(min-width: 1000px){
 	.lesson {
-		clear: left;
+		float: left;
 }
 
 
