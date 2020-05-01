@@ -1,3 +1,9 @@
+/*untuk laptop atau PC */
+@media(min-width: 1000px){
+	.lesson {
+		clear: left;
+}
+
 
 /* untuk tablet */
 @media(max-width: 1000px) {
